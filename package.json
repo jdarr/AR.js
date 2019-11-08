@@ -2,7 +2,7 @@
   "name": "ar.js",
   "version": "2.0.5",
   "description": "Efficient Augmented Reality for the Web",
-  "main": "",
+  "main": "three.js/build/ar.custom.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "make minify"

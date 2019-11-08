@@ -18,6 +18,11 @@ build-main:
 minify-main: build-main
 	uglifyjs build/ar.js > build/ar.min.js
 
+build-custom:
+	echo > build/ar.custom.js
+	cat src/threex/*.js \
+		src/module-export.js >> build/ar.custom.js
+
 build-lean:
 	echo > build/ar.lean.js
 	cat vendor/jsartoolkit5/build/artoolkit.min.js \
