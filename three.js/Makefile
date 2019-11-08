@@ -29,8 +29,6 @@ build-custom:
 		src/threex/threex-artoolkitcontext.js \
 		src/threex/threex-artoolkitprofile.js \
 		src/threex/threex-artoolkitsource.js \
-		src/threex/threex-arvideoinwebgl.js \
-		src/threex/threex-hittesting-plane.js \
 		src/module-export.js >> build/ar.custom.js
 
 build-lean:
