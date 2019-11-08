@@ -20,7 +20,17 @@ minify-main: build-main
 
 build-custom:
 	echo > build/ar.custom.js
-	cat src/threex/*.js \
+	cat src/threex/threex-arbasecontrols.js \
+		src/threex/threex-arclickability.js \
+		src/threex/threex-armarkercloak.js \
+		src/threex/threex-armarkercontrols.js \
+		src/threex/threex-armarkerhelper.js \
+		src/threex/threex-arsmoothedcontrols.js \
+		src/threex/threex-artoolkitcontext.js \
+		src/threex/threex-artoolkitprofile.js \
+		src/threex/threex-artoolkitsource.js \
+		src/threex/threex-arvideoinwebgl.js \
+		src/threex/threex-hittesting-plane.js \
 		src/module-export.js >> build/ar.custom.js
 
 build-lean:
